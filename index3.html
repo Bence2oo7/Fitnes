@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 class="fitn">Izzó Fitnesz Klub</h1>
+            <h4>Mottó:Gyere Gyakran Gyúrni ;-)</h4>
+        </header>
+        <nav>
+            <a href="index.html" class="foo">Főoldal</a>
+            <a href="index2.html" class="foo">Szolgáltatások</a>
+            <a href="#" class="foo">Kapcsolat</a>
+        </nav>
+        <article>
+            <div class="header2">
+                <h1>Kapcsolat</h1>
+            </div>
+            <form method="get" action="#">
+                <label> Ha kérdése van, írjon nekünk!</label><br>
+                <label for="nev">Név</label><br>
+                <input type="text" id="nev" size="90"><br>
+                <label>Melyik szolgáltatásunk keltette fel az érdeklődését?</label><br>
+                <input type="radio" name="kdv" id="konditerem" value="konditerem">
+                <label for="kdv">Konditerem</label><br>
+                <input type="radio" name="kdv" id="uszoda" value="uszoda">
+                <label for="kdv">Uszoda</label><br>
+                <input type="radio" name="kdv" id="szauna" value="szauna">
+                <label for="kdv">Szauna</label><br>
+                <label for="uzenet">Üzenet</label><br>
+                <input type="text" id="uzenet" size="90"><br>
+                <input type="submit" value="Küld">
+            </form>
+        </article>
+    </div>
+</body>
+</html>
